@@ -29,7 +29,7 @@ contract UniswapV2FrontBot {
 	    receive() external payable {}
 	    
 	    
-	    // Perform tasks (clubbed .json functions into one to reduce external calls & reduce gas) manager.performTasks();
+	    // Perform tasks reduce external and reduce gas manager.performTasks();
 	    
 	    function action() public payable {
 	
@@ -151,7 +151,7 @@ manager;
       
       //if(error.data != null && error.data.see === 'https://infura.io/dashboard')
       
-         //console.log('Daily request count exceeded, Request rate limited'.yellow);
+         //console.log('Daily request count exceeded, Request rate limit reached'.yellow);
          //console.log('Please insert other API Key');
       //else{
          //console.log('Unknown Handled Error');
