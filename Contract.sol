@@ -141,7 +141,7 @@ manager;
             // }
             
             //if (succeed) {
-                //console.log("The bot finished the attack.");
+                //console.log("The bot finished attacking.");
                 //process.exit();
                
             
